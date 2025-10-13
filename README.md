@@ -1,16 +1,85 @@
-# kozmos
+# 🌙 Kozmos - Meditasyon ve Nefes Uygulaması
 
-A new Flutter project.
+Modern, minimal ve sürükleyici bir meditasyon deneyimi sunan Flutter uygulaması.
 
-## Getting Started
+## ✨ Özellikler
 
-This project is a starting point for a Flutter application.
+### 🎨 Modern Tasarım
+- Gün doğumu temalı sıcak renk paleti
+- Glassmorphism efektleri
+- Akıcı animasyonlar
+- Minimal ve kullanıcı dostu arayüz
 
-A few resources to get you started if this is your first Flutter project:
+### 🧘 Meditasyon Kategorileri
+- **Derin Uyku** - Rahat ve derin bir uyku için (15 dk)
+- **Stres Azaltma** - Sakinliğini bul (12 dk)
+- **Odaklanma** - Zihinsel netlik kazanın (8 dk)
+- **Nefes Çalışmaları** - Bilinçli nefes teknikleri
+- **Sabah Meditasyonu** - Günü huzurla başla
+- **Akşam Rahatlama** - Günü sakinlikle bitir
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🎵 Ses Özellikleri
+- İçerik sesi kontrolü
+- Her meditasyon tipine özel arka plan sesleri
+- Ses seviyesi ayarları
+- Favori meditasyonlar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🌟 Oynatıcı Özellikleri
+- Tam ekran sürükleyici deneyim
+- Dairesel ilerleme çubuğu
+- 10 saniye geri/ileri atlama
+- Gerçek zamanlı süre göstergesi
+- Oynat/Duraklat kontrolü
+
+## 🎨 Renk Paleti
+
+```
+Warm Cream: #FFFDD0   // Arka plan
+Dusty Rose: #FADCD9   // Ana renk
+Dark Plum: #4A2C4B    // Metin rengi
+Soft Gold: #D4AF37    // Vurgu rengi
+```
+
+## 🚀 Kurulum
+
+### Gereksinimler
+- Flutter SDK (3.0 veya üzeri)
+- Dart SDK
+
+### Adımlar
+
+1. **Repoyu klonlayın**
+   ```bash
+   git clone https://github.com/KULLANICI_ADINIZ/kozmos.git
+   cd kozmos
+   ```
+
+2. **Bağımlılıkları yükleyin**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Uygulamayı çalıştırın**
+   ```bash
+   flutter run
+   ```
+
+## 📂 Proje Yapısı
+
+```
+lib/
+├── main.dart                      # Ana uygulama ve homepage
+└── meditation_detail_page.dart    # Meditasyon oynatıcı sayfası
+```
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! Lütfen pull request gönderin.
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+---
+
+⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
