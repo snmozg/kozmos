@@ -368,7 +368,7 @@ class _MeditationDetailPageState extends State<MeditationDetailPage>
                           ),
                         ),
                       );
-                    }).toList(),
+                    }),
                   ],
                 ),
               ),

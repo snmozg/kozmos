@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1907165903",
+    "project_id": "kozmos-7a56f",
+    "storage_bucket": "kozmos-7a56f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1907165903:android:8b6cee12e52c96f2d485ba",
+        "android_client_info": {
+          "package_name": "com.example.kozmos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgUkQUWqTO3LPqp3CBpux3g9g-sfh5VCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
