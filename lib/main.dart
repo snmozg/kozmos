@@ -8,6 +8,7 @@ import 'programs_listing_page.dart';
 import 'explore_page.dart';
 import 'design_system.dart';
 import 'journey_profile_page.dart';
+import 'authentication_gate.dart';
 
 // Firebase imports
 import 'package:firebase_core/firebase_core.dart';
@@ -69,7 +70,7 @@ class KozmosApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const KozmosHomePage(),
+      home: const AuthenticationGate(),
     );
   }
 }
@@ -184,27 +185,13 @@ class HomePage extends StatelessWidget {
               SliverToBoxAdapter(
                 child: Padding(
                   padding: const EdgeInsets.all(20.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const Text(
-                        'Merhaba, Sinem',
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.w400,
-                          color: AppColors.darkPlum,
-                        ),
-                      ),
-                      CircleAvatar(
-                        radius: 20,
-                        backgroundColor: AppColors.dustyRose,
-                        child: const Icon(
-                          Icons.person_outline,
-                          color: AppColors.darkPlum,
-                          size: 24,
-                        ),
-                      ),
-                    ],
+                  child: const Text(
+                    'Merhaba, Sinem',
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.w400,
+                      color: AppColors.darkPlum,
+                    ),
                   ),
                 ),
               ),

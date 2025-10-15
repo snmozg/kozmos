@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'design_system.dart';
+import 'design_system.dart' hide AppColors;
 import 'services/auth_service.dart';
+import 'main.dart' show AppColors;
 
 /// Forgot Password Page - For users to reset their password
 class ForgotPasswordPage extends StatefulWidget {
@@ -477,13 +478,4 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
   bool _isValidEmail(String email) {
     return RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$').hasMatch(email);
   }
-}
-
-class AppColors {
-  static const Color warmCream = Color(0xFFFFFDD0);
-  static const Color dustyRose = Color(0xFFFADCD9);
-  static const Color darkPlum = Color(0xFF4A2C4B);
-  static const Color softGold = Color(0xFFD4AF37);
-  static const Color lightPeach = Color(0xFFFFF5E6);
-  static const Color lighterPlum = Color(0xFF6B4C6D);
 }

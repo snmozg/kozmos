@@ -1,16 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 import 'dart:async';
-
-// Color Constants
-class AppColors {
-  static const warmCream = Color(0xFFFFFDD0);
-  static const dustyRose = Color(0xFFFADCD9);
-  static const darkPlum = Color(0xFF4A2C4B);
-  static const softGold = Color(0xFFD4AF37);
-  static const lightPeach = Color(0xFFFFF5E6);
-  static const lighterPlum = Color(0xFF6B4C6D);
-}
+import 'main.dart' show AppColors;
 
 // Breathwork Therapy Listing Page
 class BreathworkTherapyListPage extends StatelessWidget {

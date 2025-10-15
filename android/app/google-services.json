@@ -12,7 +12,12 @@
           "package_name": "com.example.kozmos"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1907165903-pqvnkdq9semntjau3sdu50htja2o5hps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCgUkQUWqTO3LPqp3CBpux3g9g-sfh5VCU"
@@ -20,7 +25,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1907165903-pqvnkdq9semntjau3sdu50htja2o5hps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1907165903-thk2i569qclhfb91qg40j46ln8kq38cc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kozmos"
+              }
+            }
+          ]
         }
       }
     }
